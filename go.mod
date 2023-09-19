@@ -15,6 +15,7 @@ require (
 	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter v0.85.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckextension v0.85.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/extension/pprofextension v0.85.0
+	github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage v0.85.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor v0.85.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor v0.85.0
 	github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor v0.85.0
@@ -247,6 +248,7 @@ require (
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
 	github.com/yusufpapurcu/wmi v1.2.3 // indirect
+	go.etcd.io/bbolt v1.3.7 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.opentelemetry.io/collector/config/configauth v0.85.0 // indirect
 	go.opentelemetry.io/collector/config/configcompression v0.85.0 // indirect

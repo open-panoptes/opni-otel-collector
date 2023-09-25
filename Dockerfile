@@ -1,6 +1,6 @@
 FROM golang:1.20 AS builder
 
-RUN go install go.opentelemetry.io/collector/cmd/builder@v0.74.0
+RUN go install go.opentelemetry.io/collector/cmd/builder@v0.85.0
 
 WORKDIR /otel
 
@@ -18,7 +18,7 @@ RUN mkdir -p /tmp
 
 FROM debian:11.6 as journal
 RUN apt update
-RUN apt install -y systemd=247.3-7+deb11u2
+RUN apt install -y systemd=247.3-7+deb11u4
 RUN useradd -u 10001 scratchuser \
     && usermod -a -G systemd-journal scratchuser \ 
     && usermod -a -G root scratchuser

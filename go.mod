@@ -322,7 +322,7 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/rancher-sandbox/otel-collector-contrib/exporter/opensearchexporter v0.0.0-20230926210425-8779039d6bfd
+replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/rancher-sandbox/otel-collector-contrib/exporter/opensearchexporter v0.0.0-20231120195425-c96e2c5643bd
 
 // ambiguous import: found package cloud.google.com/go/compute/metadata in multiple modules
 replace cloud.google.com/go => cloud.google.com/go v0.110.2

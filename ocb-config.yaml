@@ -1,5 +1,5 @@
 dist:
-  module: github.com/rancher-sandbox/opni-otel-collector # the module name for the new distribution, following Go mod conventions. Optional, but recommended.
+  module: github.com/open-panoptes/opni-otel-collector # the module name for the new distribution, following Go mod conventions. Optional, but recommended.
   name: otelcol-custom # the binary name. Optional.
   description: "Custom OpenTelemetry Collector distribution" # a long name for the application. Optional.
   otelcol_version: "0.85.0"
@@ -54,4 +54,4 @@ processors:
   - gomod: github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor v0.85.0
 
 replaces:
-- github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/rancher-sandbox/otel-collector-contrib/exporter/opensearchexporter v0.0.0-20230926210425-8779039d6bfd
+  - github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => github.com/open-panoptes/opentelemetry-collector-contrib/exporter/opensearchexporter v0.0.0-20230926210425-8779039d6bfd
